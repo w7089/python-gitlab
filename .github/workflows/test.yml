@@ -111,7 +111,7 @@ jobs:
     name: Python wheel
     steps:
     - uses: actions/checkout@v1.2.0
-    - uses: actions/setup-python@v2.3.3
+    - uses: actions/setup-python@v4.8.0
       with:
         python-version: "3.11"
     - name: Install dependencies
